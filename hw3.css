@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #FFFFFF;
   padding: 20px 10px;
 }
 
@@ -32,4 +32,5 @@
 
 .header-right {
   float: right;
+  color: #f1f1f1;
 }

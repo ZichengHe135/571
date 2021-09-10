@@ -6,7 +6,7 @@
 
 .header a {
   float: left;
-  color: black;
+  color: #f1f1f1;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -15,9 +15,11 @@
   border-radius: 4px;
 }
 
-.header a.logo {
+.header h1.logo {
   font-size: 25px;
   font-weight: bold;
+  text-align: center;
+  padding: 12px;
 }
 
 .header a:hover {
@@ -27,8 +29,4 @@
 
 .header-right {
   float: right;
-}
-
-.header a.right {
-  color: #f1f1f1;
 }

@@ -27,5 +27,8 @@
 
 .header-right {
   float: right;
+}
+
+.header a.right {
   color: #f1f1f1;
 }

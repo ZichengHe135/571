@@ -5,8 +5,7 @@
 }
 
 .header a {
-  float: left;
-  color: #e5e8e8;
+  color: #bdc3c7;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -20,6 +19,9 @@
   font-weight: bold;
   text-align: center;
   padding: 12px;
+  float: left;
+  line-height: 25px;
+  border-radius: 4px;
 }
 
 .header a:hover {

@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px 10px;
 }
 
@@ -25,12 +25,6 @@
   color: black;
 }
 
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
 .header-right {
   float: right;
-  color: #f1f1f1;
 }

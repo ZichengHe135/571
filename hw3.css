@@ -61,12 +61,12 @@ body {
 }
 
 .searchbox p {
-  margin: 0;
-  padding: 12px;
+  margin: 12px;
+  padding: 0px;
 }
 
 .searchbox h1 {
-  margin: 0;
+  margin: 12px;
 }
 
 .oneliner {
@@ -80,8 +80,9 @@ body {
 }
 .button {
   background-color: #F4D03F;
-  width: 170px;
+  width: 200px;
   height: 50px;
+  line-height: 50px;
   font-size: 15px;
   text-align: center;
   color: #000000;
@@ -97,7 +98,7 @@ body {
 
 .quote {
   text-align: center;
-  height: 400px;
+  height: 250px;
   padding-top: 100px;
 }
 

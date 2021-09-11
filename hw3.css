@@ -41,7 +41,48 @@ body {
   border-radius: 4px;
 }
 
+.lawyer {
+  position: relative;
+}
+
 .lawyer img {
   max-width:100%;
   max-height:100%;
+}
+
+.searchbox {
+  background-color: #154360;
+  top: 121px;
+  left: 87px;
+  width: 330px;
+  height: 380px;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+.searchbox p {
+  margin: 0;
+  padding: 12px;
+}
+
+.searchbox h1 {
+  margin: 0;
+}
+
+.oneliner {
+  color: #F4D03F;
+}
+
+.search {
+  background-color: #ebf5fb;
+  width: 170px;
+  height: 50px;
+}
+.button {
+  background-color: #F4D03F;
+  width: 170px;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+  color: #000000;
 }

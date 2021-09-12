@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: arial;
 }
 
 .header {
@@ -93,6 +93,7 @@ body {
   height: 35px;
   margin-top: 15px;
 }
+
 .button {
   background-color: #F4D03F;
   width: 105px;
@@ -142,7 +143,7 @@ body {
 .plansbg {
   background-image: url(glasses.png);
   filter: grayscale(1) opacity(0.3);
-  min-height: 500px;
+  min-height: 520px;
 
   background-attachment: fixed;
   background-position: center;
@@ -153,65 +154,183 @@ body {
 .plans div.toptext {
   position: absolute;
   left: 50%;
-  top: 50px;
+  top: 20px;
   transform: translate(-50%);
   text-align: center;
+}
+
+.toptext h2{
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+.toptext p {
+  font-size:10px;
+  color: #797D7F;
+  margin: 0px;
 }
 
 .plansblock1 {
   position: absolute;
-  top: 200px;
-  left: 200px;
+  top: 130px;
+  left: 60px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: white;
+  height: 330px;
+  width: 210px;
 }
 
 .plansblock2 {
   position: absolute;
-  top: 200px;
+  top: 130px;
   left: 50%;
   text-align: center;
   transform: translate(-50%);
-  background-color: #ffffff;
+  background-color: white;
+  height: 330px;
+  width: 210px;
 }
 
 .plansblock3 {
   position: absolute;
-  top: 200px;
-  right: 200px;
+  top: 130px;
+  right: 60px;
   text-align: center;
-  background-color: #ffffff;
+  background-color: white;
+  height: 330px;
+  width: 210px;
+}
+
+.gridbg {
+  position: absolute;
+  top: 0px;
+  background-image: url(grid.png);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  filter: opacity(0.15);
+  height: 330px;
+  width: 200px;
+}
+
+.plans h3 {
+  padding: 30px;
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+.buyfeatures {
+  font-size: 10px;
+  line-height: 20px;
+  margin: 0px;
+}
+
+.price {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.buynow {
+  background-color: #215082;
+  margin: 0px 50px;
+  line-height: 40px;
+  color: #FFFFFF;
+  font-size:10px;
 }
 
 .trial {
+  background-color: #16385E;
+  height: 320px;
   position: relative;
   overflow: hidden;
-  height: 600px;
+}
+
+.trialbg {
+  height: 320px;
   background-image: url(notebook.jpg);
+  filter: opacity(0.3);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.trialcontent {
+  position: absolute;
+  top: 100px;
+  color: white;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%);
+}
+
+.trialcontent h3 {
+  font-weight: normal;
+  margin: 0px;
+}
+
+.trialcontent p {
+  font-size: 11px;
+  margin-bottom: 20px;
+}
+
+.trialcontent div.button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 0px;
+  width: 130px;
+}
+
+.trialcontent div.button p {
+  margin: 0px;
+}
 
 .contacts {
   background-color: #283747;
   position: relative;
-  height: 400px;
+  height: 200px;
   width: 100%;
 }
 
 .contacts h2{
   position: absolute;
-  top: 100px;
+  top: 70px;
+  margin: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .contacts p{
   position: absolute;
-  top: 200px;
+  top: 95px;
+  margin: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #D5D8DC;
+  font-size: 10px;
 }
 
 .page2 {
   font-size: 50px;
   height: 600px;
+}
+
+.imgs {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.imgs img {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
 }

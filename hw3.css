@@ -58,7 +58,7 @@ body {
 }
 
 .searchbox {
-  background-color: #154360;
+  background-color: #0B3B59;
   top: 87px;
   left: 65px;
   width: 180px;
@@ -82,20 +82,20 @@ body {
 }
 
 .oneliner {
-  color: #F4D03F;
+  color: #F2CE16;
   font-style: italic;
   font-weight: bold;
 }
 
 .search {
-  background-color: #ebf5fb;
+  background-color: #E4EAED;
   width: 180px;
   height: 35px;
   margin-top: 15px;
 }
 
 .button {
-  background-color: #F4D03F;
+  background-color: #F2CE16;
   width: 105px;
   height: 30px;
   line-height: 30px;
@@ -127,7 +127,7 @@ body {
   text-align: center;
   height: 155px;
   padding-top: 80px;
-  background-color: #f8f9f9;
+  background-color: #F4F4F4;
   font-size: 11px;
 }
 
@@ -236,7 +236,7 @@ body {
 }
 
 .buynow {
-  background-color: #215082;
+  background-color: #0B3B59;
   margin: 0px 50px;
   line-height: 40px;
   color: #FFFFFF;
@@ -244,7 +244,7 @@ body {
 }
 
 .trial {
-  background-color: #16385E;
+  background-color: #0D314C;
   height: 320px;
   position: relative;
   overflow: hidden;
@@ -253,7 +253,7 @@ body {
 .trialbg {
   height: 320px;
   background-image: url(notebook.jpg);
-  filter: opacity(0.3);
+  filter: opacity(0.3) grayscale(1);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,7 +291,7 @@ body {
 }
 
 .contacts {
-  background-color: #283747;
+  background-color: #1D2530;
   position: relative;
   height: 200px;
   width: 100%;

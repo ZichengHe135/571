@@ -7,6 +7,7 @@ body {
   overflow: hidden;
   background-color: #ffffff;
   padding: 10px;
+  width: 900px;
 }
 
 .header a {
@@ -45,6 +46,7 @@ body {
 
 .lawyer {
   min-height: 455px;
+  width: 900px;
   position: relative;
   background-image: url(lawyer.jpg);
   background-position: center;
@@ -120,7 +122,8 @@ body {
 }
 
 .features {
-  padding: 80px 35px;
+  padding: 80px 0px;
+  width: 900px;
 }
 
 .quote {
@@ -129,6 +132,7 @@ body {
   padding-top: 80px;
   background-color: #F4F4F4;
   font-size: 11px;
+  width: 900px;
 }
 
 .quote span{
@@ -137,7 +141,7 @@ body {
 
 .plans {
   position: relative;
-
+  width: 900px;
 }
 
 .plansbg {
@@ -176,7 +180,7 @@ body {
 .plansblock1 {
   position: absolute;
   top: 130px;
-  left: 60px;
+  left: 100px;
   text-align: center;
   background-color: white;
   height: 330px;
@@ -197,7 +201,7 @@ body {
 .plansblock3 {
   position: absolute;
   top: 130px;
-  right: 60px;
+  right: 100px;
   text-align: center;
   background-color: white;
   height: 330px;
@@ -248,6 +252,7 @@ body {
   height: 320px;
   position: relative;
   overflow: hidden;
+  width: 900px;
 }
 
 .trialbg {
@@ -294,7 +299,7 @@ body {
   background-color: #1D2530;
   position: relative;
   height: 200px;
-  width: 100%;
+  width: 900px;
 }
 
 .contacts h2{

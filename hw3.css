@@ -174,3 +174,8 @@ body {
   position: absolute;
   top: 600px;
 }
+
+.page2 {
+  font-size: 50px;
+  height: 600px;
+}

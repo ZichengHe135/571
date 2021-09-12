@@ -124,13 +124,14 @@ body {
 
 .quote {
   text-align: center;
-  height: 250px;
-  padding-top: 100px;
+  height: 155px;
+  padding-top: 80px;
   background-color: #f8f9f9;
+  font-size: 11px;
 }
 
-.quote p{
-
+.quote span{
+  font-size: 10px;
 }
 
 .plans {

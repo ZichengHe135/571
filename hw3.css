@@ -14,18 +14,19 @@ body {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 10px;
   line-height: 25px;
   border-radius: 4px;
 }
 
 .header div.logo {
-  font-size: 25px;
+  font-size: 12px;
   text-align: center;
   padding: 12px;
   float: left;
   line-height: 25px;
   border-radius: 4px;
+  padding-left: 60px;
 }
 
 .header a:hover {
@@ -37,12 +38,18 @@ body {
   float: right;
   text-align: center;
   padding: 12px;
+  padding-right: 60px;
   line-height: 25px;
   border-radius: 4px;
 }
 
 .lawyer {
+  min-height: 455px;
   position: relative;
+  background-image: url(lawyer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .lawyer img {
@@ -52,40 +59,49 @@ body {
 
 .searchbox {
   background-color: #154360;
-  top: 121px;
-  left: 87px;
-  width: 330px;
-  height: 380px;
+  top: 87px;
+  left: 65px;
+  width: 180px;
+  height: 225px;
   position: absolute;
   color: #FFFFFF;
+  padding: 27px;
 }
 
 .searchbox p {
-  margin: 12px;
-  padding: 0px;
+  margin: 6px;
+  font-size: 9px;
 }
 
 .searchbox h1 {
-  margin: 12px;
+  margin: 6px;
+  font-size: 20px;
+
+  font-weight: normal;
+  line-height: 95%;
 }
 
 .oneliner {
   color: #F4D03F;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .search {
   background-color: #ebf5fb;
-  width: 170px;
-  height: 50px;
+  width: 180px;
+  height: 35px;
+  margin-top: 15px;
 }
 .button {
   background-color: #F4D03F;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 15px;
+  width: 105px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 10px;
   text-align: center;
   color: #000000;
+  margin-top: 20px;
 }
 
 .tf th {
@@ -100,6 +116,7 @@ body {
   text-align: center;
   height: 250px;
   padding-top: 100px;
+  background-color: #f8f9f9;
 }
 
 .quote p{
@@ -158,21 +175,29 @@ body {
 .trial {
   position: relative;
   overflow: hidden;
-  height: 1000px;
+  height: 600px;
+  background-image: url(notebook.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.trial img {
-  max-width: 100%;
-
-  object-fit: cover;
-}
 
 .contacts {
   background-color: #283747;
+  position: relative;
   height: 400px;
   width: 100%;
+}
+
+.contacts h2{
   position: absolute;
-  top: 600px;
+  top: 100px;
+}
+
+.contacts p{
+  position: absolute;
+  top: 200px;
 }
 
 .page2 {

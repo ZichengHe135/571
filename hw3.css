@@ -6,7 +6,7 @@ body {
 .header {
   overflow: hidden;
   background-color: #ffffff;
-  padding: 20px 10px;
+  padding: 10px;
 }
 
 .header a {
@@ -104,12 +104,22 @@ body {
   margin-top: 20px;
 }
 
+.tf {
+  border-spacing: 40px 10px;
+}
+
 .tf th {
   text-align: left;
+  font-size: 10px;
 }
 
 .tf td {
   color: #797D7F;
+  font-size: 9px;
+}
+
+.features {
+  padding: 80px 35px;
 }
 
 .quote {

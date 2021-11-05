@@ -1,0 +1,39 @@
+.symbol{
+    width = 16px;
+    height = 16px;
+}
+
+body {
+  font-family: arial;
+}
+
+.content {
+  max-width: 960px;
+  margin: auto;
+}
+
+body {
+    background-color: #F4F6F7;
+}
+
+.theform {
+    width: 600px;
+    margin: auto;
+    border: 2px;
+    border-style: groove;
+    border-color: #909497;
+    background-color: white;
+}
+
+.formheader {
+    background-image: url(Images/banner.jpg);
+    color: #555656;
+}
+
+.formheader h2 {
+    margin: 0px;
+}
+
+#result {
+    margin: auto;
+}

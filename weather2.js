@@ -33,8 +33,8 @@ function send() {
         ret += "&&auto=False";
     }
 
-    // x.open("GET", "http://Localhost:5000/weather" + ret, true);
-    x.open("GET", "https://causal-root-328309.wl.r.appspot.com/weather" + ret, true);
+    x.open("GET", "http://Localhost:8080/weather" + ret, true);
+    // x.open("GET", "https://project2-331211.uw.r.appspot.com/weather" + ret, true);
     x.send();
 
     return true;
